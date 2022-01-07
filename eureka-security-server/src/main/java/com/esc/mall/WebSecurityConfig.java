@@ -1,4 +1,4 @@
-package com.esc.mall.config;
+package com.esc.mall;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
