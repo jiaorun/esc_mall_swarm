@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 /**
  * 用户 控制层
@@ -61,7 +63,7 @@ public class UserController {
         return new CommonResult<User>(user, 200, "操作成功");
     }
 
-    @DeleteMapping("/{id}")
+    @PostMapping("/delete/{id}")
     public CommonResult delete(@PathVariable Long id) {
         userService.delete(id);
         return new CommonResult(200, "操作成功");

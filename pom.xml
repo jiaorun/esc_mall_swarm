@@ -23,6 +23,8 @@
         <module>eureka-security-server</module>
         <module>user-service</module>
         <module>ribbon-server</module>
+        <module>untitled</module>
+        <module>hystrix-service</module>
     </modules>
 
     <properties>
@@ -38,6 +40,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- hutool -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.6.3</version>
         </dependency>
     </dependencies>
 
