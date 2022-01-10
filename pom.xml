@@ -25,6 +25,8 @@
         <module>ribbon-server</module>
         <module>untitled</module>
         <module>hystrix-service</module>
+        <module>hystrix-dashboard</module>
+        <module>turbine-service</module>
     </modules>
 
     <properties>
