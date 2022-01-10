@@ -27,6 +27,7 @@
         <module>hystrix-service</module>
         <module>hystrix-dashboard</module>
         <module>turbine-service</module>
+        <module>feign-service</module>
     </modules>
 
     <properties>
