@@ -1,0 +1,17 @@
+server:
+  port: 8905
+spring:
+  application:
+    name: config-security-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/jiaorun11/springcloud-config.git
+          username: 18727620519
+          password: jrzz995787931
+          clone-on-start: true #开启启动时直接从git获取配置
+  security: #配置用户名和密码
+    user:
+      name: root
+      password: 123456
