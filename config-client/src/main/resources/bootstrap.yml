@@ -8,7 +8,7 @@ spring:
       profile: dev #启用配置后缀名称
       label: master #分支名称
       uri: http://localhost:8901 #配置中心地址
-      name: config #配置文件名称
+      name: config #配置文件名称(例:config-dev，文件名为config，后缀为dev)
 eureka:
   client:
     service-url:
