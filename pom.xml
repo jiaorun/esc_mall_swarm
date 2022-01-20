@@ -35,6 +35,7 @@
         <module>consul-user-service</module>
         <module>consul-ribbon-service</module>
         <module>consul-config-client</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
