@@ -41,12 +41,14 @@
         <module>admin-security-server</module>
         <module>oauth2-server</module>
         <module>oauth2-jwt-server</module>
+        <module>oauth2-client</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <spring-boot.version>2.6.2</spring-boot.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <jjwt.version>0.9.0</jjwt.version>
     </properties>
 
     <dependencies>
