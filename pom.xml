@@ -45,6 +45,7 @@
         <module>nacos-user-service</module>
         <module>nacos-ribbon-service</module>
         <module>nacos-config-client</module>
+        <module>sentinel-service</module>
     </modules>
 
     <properties>
